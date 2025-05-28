@@ -58,21 +58,24 @@ cd uu_chain
 ```
 ### 2. Instalasi Dependensi untuk Hardhat
 ```bash
+cd network
 npm install
 ```
 ### 3. Jalankan Hardhat Node (Blockchain Lokal)
 ```bash
+cd network
 npx hardhat node
 ```
 ### 4. Deploy Smart Contract ke Jaringan Lokal
 Jalankan perintah ini di terminal baru agar node tetap berjalan.
 ```bash
-Edit
+cd network
 npx hardhat run scripts/deploy.js --network localhost
 ```
 ### 5. Jalankan Flutter Frontend
 Masuk ke direktori proyek Flutter, lalu jalankan:
 ```bash
+cd frontend
 flutter pub get
 flutter run
 ```
