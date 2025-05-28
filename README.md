@@ -15,7 +15,11 @@ Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-
 - [Alat yang Digunakan](#alat-yang-digunakan)
 - [Peringatan!](#peringatan)
 - [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
-  -- tes
+  - [Clone Repository](#1️⃣-clone-repository)
+  - [Instalasi Dependensi](#2️⃣-instalasi-dependensi-untuk-hardhat)
+  - [Jalankan Hardhat Node](#3️⃣-jalankan-hardhat-node-blockchain-lokal)
+  - [Deploy Smart Contract](#4️⃣-deploy-smart-contract-ke-jaringan-lokal)
+  - [Jalankan Flutter](#5️⃣-jalankan-flutter-frontend)
 - [Cara Membersihkan Proyek](#cara-membersihkan-proyek)
 - [Lisensi](#lisensi)
 
@@ -78,20 +82,24 @@ Setiap UU berisi informasi seperti:
 
 ---
 
-<a name="cara-menjalankan-project"></a>
+<a name="cara-menjalankan-proyek"></a>
 ## 🛠️ Cara Menjalankan Proyek
 
+<a name="clone-repository"></a>
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/uu_chain.git
 cd uu_chain
 ```
 
+<a name="instalasi-dependensi"></a>
 ### 2️⃣ Instalasi Dependensi untuk Hardhat
 ```bash
 cd network
 npm install
 ```
+
+<a name="jalankan-hardhat-node"></a>
 ### 3️⃣ Jalankan Hardhat Node (Blockchain Lokal)
 ```bash
 cd network
@@ -114,6 +122,7 @@ const dummyUsers = [
 
 ```
 
+<a name="deploy-smart-contract"></a>
 ### 4️⃣ Deploy Smart Contract ke Jaringan Lokal
 Jalankan perintah ini di terminal baru agar node tetap berjalan.
 ```bash
@@ -126,7 +135,8 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 String contractAddress = "0x4826533B4897376654Bb4d4AD88B7faFD0C98528".toLowerCase();// Ganti dengan alamat kontrak yang sesuai
 ```
- 
+
+<a name="jalankan-flutter"></a>
 ### 5️⃣ Jalankan Flutter Frontend dan instalasi dependensi yang diperlukan
 Masuk ke direktori proyek Flutter, lalu jalankan:
 ```bash
@@ -136,9 +146,10 @@ flutter run
 ```
 ### ✅ Pastikan koneksi ke Hardhat node sudah aktif dan smart contract berhasil ter-deploy.
 
-### Catatan Tambahan
+---
+
 <a name="cara-membersihkan-proyek"></a>
-🧹 Pembersihan Proyek
+## Catatan Tambahan (🧹 Pembersihan Proyek)
 Membersihkan proyek Node.js
 Untuk membersihkan proyek dari folder yang tidak diperlukan, pastikan skrip berikut ada dalam package.json:
 ```
@@ -162,6 +173,6 @@ flutter clean
 ---
 
 <a name="lisensi"></a>
-## 📄 Lisensi
+# 📄 Lisensi
 Proyek ini bersifat open-source dan dapat digunakan untuk kepentingan edukasi.
 
