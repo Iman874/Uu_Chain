@@ -39,56 +39,48 @@ Aplikasi ini memungkinkan pengguna untuk membuat dan mencatat Undang-Undang (UU)
 ```bash
 git clone https://github.com/username/uu_chain.git
 cd uu_chain
-'''
-
+```
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/username/uu_chain.git
 cd uu_chain
-2. Instalasi Dependensi untuk Hardhat
-bash
-Salin
-Edit
+```
+### 2. Instalasi Dependensi untuk Hardhat
+```bash
 npm install
-3. Jalankan Hardhat Node (Blockchain Lokal)
-bash
-Salin
-Edit
+```
+### 3. Jalankan Hardhat Node (Blockchain Lokal)
+```bash
 npx hardhat node
-4. Deploy Smart Contract ke Jaringan Lokal
+```
+### 4. Deploy Smart Contract ke Jaringan Lokal
 Jalankan perintah ini di terminal baru agar node tetap berjalan.
-
-bash
-Salin
+```bash
 Edit
 npx hardhat run scripts/deploy.js --network localhost
-5. Jalankan Flutter Frontend
+```
+### 5. Jalankan Flutter Frontend
 Masuk ke direktori proyek Flutter, lalu jalankan:
-
-bash
-Salin
-Edit
+```bash
 flutter pub get
 flutter run
-Pastikan koneksi ke Hardhat node sudah aktif dan smart contract berhasil ter-deploy.
+```
+### Pastikan koneksi ke Hardhat node sudah aktif dan smart contract berhasil ter-deploy.
 
-Catatan Tambahan
-Untuk membersihkan proyek dari folder yang tidak diperlukan, tambahkan skrip berikut ke dalam package.json:
-
-json
-Salin
-Edit
-"scripts": {
-  "clean": "rm -rf node_modules artifacts cache coverage"
-}
+### Catatan Tambahan
+Untuk membersihkan proyek dari folder yang tidak diperlukan, pastikan skrip berikut ada dalam package.json:
+```
+   "scripts": {
+    "clean": "rd /s /q node_modules && rd /s /q artifacts && rd /s /q cache && rd /s /q coverage"
+  },
+```
 Lalu jalankan:
 
-bash
-Salin
-Edit
+```
 npm run clean
+```
 Pastikan di sisi Flutter, koneksi ke node lokal http://127.0.0.1:8545 sudah sesuai. Bila menggunakan emulator, sesuaikan alamat IP jika perlu (10.0.2.2 untuk Android emulator).
 
-Lisensi
+### Lisensi
 Proyek ini bersifat open-source dan dapat digunakan untuk kepentingan edukasi.
 
