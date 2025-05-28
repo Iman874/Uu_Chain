@@ -1,5 +1,5 @@
 const String rpcUrl = "http://127.0.0.1:8545"; // Ganti sesuai node Hardhat/Ganache
-String contractAddress = "0x4826533B4897376654Bb4d4AD88B7faFD0C98528".toLowerCase();// Ganti dengan alamat kontrak yang sebenarnya
+String contractAddress = "0x4826533B4897376654Bb4d4AD88B7faFD0C98528".toLowerCase();// Ganti dengan alamat kontrak yang sesuai
 
 const String abi = '''
 [
