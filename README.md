@@ -9,7 +9,7 @@ Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-
 
 ---
 
-# Daftar Isi
+# 🗂️ Daftar Isi
 - [Penjelasan Singkat Aplikasi](#penjelasan-singkat-aplikasi)
 - [Fitur Utama Aplikasi](#fitur-utama-aplikasi)
 - [Alat yang Digunakan](#alat-yang-digunakan)
