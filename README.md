@@ -15,6 +15,8 @@ Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-
 - [Alat yang Digunakan](#alat-yang-digunakan)
 - [Peringatan!](#peringatan)
 - [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
+  -- tes
+- [Cara Membersihkan Proyek](#cara-membersihkan-proyek)
 - [Lisensi](#lisensi)
 
 ---
@@ -53,6 +55,7 @@ Setiap UU berisi informasi seperti:
 
 ---
 
+<a name="alat-yang-digunakan"></a>
 ## 🧰 Alat yang Digunakan
 
 - 🎯 **Frontend**: Flutter  
@@ -66,6 +69,7 @@ Setiap UU berisi informasi seperti:
 
 ---
 
+<a name="peringatan"></a>
 ## ⚠️ Peringatan!
 
 🚧 Project ini hanya bersifat demo!  
@@ -74,6 +78,7 @@ Setiap UU berisi informasi seperti:
 
 ---
 
+<a name="cara-menjalankan-project"></a>
 ## 🛠️ Cara Menjalankan Proyek
 
 ### 1️⃣ Clone Repository
@@ -122,7 +127,7 @@ npx hardhat run scripts/deploy.js --network localhost
 String contractAddress = "0x4826533B4897376654Bb4d4AD88B7faFD0C98528".toLowerCase();// Ganti dengan alamat kontrak yang sesuai
 ```
  
-### 5️⃣ Jalankan Flutter Frontend
+### 5️⃣ Jalankan Flutter Frontend dan instalasi dependensi yang diperlukan
 Masuk ke direktori proyek Flutter, lalu jalankan:
 ```bash
 cd frontend
@@ -132,6 +137,7 @@ flutter run
 ### ✅ Pastikan koneksi ke Hardhat node sudah aktif dan smart contract berhasil ter-deploy.
 
 ### Catatan Tambahan
+<a name="cara-membersihkan-proyek"></a>
 🧹 Pembersihan Proyek
 Membersihkan proyek Node.js
 Untuk membersihkan proyek dari folder yang tidak diperlukan, pastikan skrip berikut ada dalam package.json:
@@ -155,6 +161,7 @@ flutter clean
 
 ---
 
+<a name="lisensi"></a>
 ## 📄 Lisensi
 Proyek ini bersifat open-source dan dapat digunakan untuk kepentingan edukasi.
 
