@@ -168,7 +168,7 @@ Membersihkan proyek Flutter
 cd frontend
 flutter clean
 ```
-📡 Pastikan di sisi Flutter, koneksi ke node lokal http://127.0.0.1:8545 sudah sesuai. Bila menggunakan emulator, sesuaikan alamat IP jika perlu (10.0.2.2 untuk Android emulator).
+📡 Pastikan di sisi Flutter, koneksi ke node lokal http://127.0.0.1:8545 sudah sesuai. Proyek ini hanya dapat berjalan pada flutter web!!
 
 ---
 
