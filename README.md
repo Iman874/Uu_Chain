@@ -1,9 +1,21 @@
+
+
 # ⚖️ Uu_Chain
 
 **Uu_Chain** adalah aplikasi sederhana yang mengimplementasikan konsep blockchain secara lokal.  
 Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-Undang (UU) pada jaringan blockchain lokal menggunakan **Hardhat** dan **Flutter**.
 
 🎥 *Link demo penjelasan dan demo aplikasi:* (tambahkan link di sini)
+
+---
+
+# Daftar Isi
+- [Penjelasan Singkat Aplikasi](##penjelasan-singkat-aplikasi)
+- [Fitur Utama Aplikasi](##fitur-utama-aplikasi)
+- [Alat yang Digunakan](##alat-yang-digunakan)
+- [Peringatan!](###peringatan)
+- [Cara Menjalankan Proyek](##cara-menjalankan-proyek)
+- [Lisensi](##lisensi)
 
 ---
 
