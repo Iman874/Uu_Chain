@@ -16,6 +16,7 @@ Aplikasi ini memungkinkan pengguna untuk membuat dan mencatat Undang-Undang (UU)
 - Menentukan tanggal mulai dan kadaluarsa UU.
 - Menampilkan daftar UU yang telah dibuat.
 - Mendownload data UU dalam bentuk PDF lengkap dengan hash.
+- Memverifikasi data UU dalam bentuk pdf
 - Simulasi berjalan di jaringan blockchain lokal (Hardhat).
 
 ---
