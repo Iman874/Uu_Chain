@@ -10,12 +10,12 @@ Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-
 ---
 
 # Daftar Isi
-- [Penjelasan Singkat Aplikasi](##penjelasan-singkat-aplikasi)
-- [Fitur Utama Aplikasi](##fitur-utama-aplikasi)
-- [Alat yang Digunakan](##alat-yang-digunakan)
-- [Peringatan!](###peringatan)
-- [Cara Menjalankan Proyek](##cara-menjalankan-proyek)
-- [Lisensi](##lisensi)
+- [Penjelasan Singkat Aplikasi](#penjelasan-singkat-aplikasi)
+- [Fitur Utama Aplikasi](#fitur-utama-aplikasi)
+- [Alat yang Digunakan](#alat-yang-digunakan)
+- [Peringatan!](#peringatan)
+- [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
+- [Lisensi](#lisensi)
 
 ---
 
