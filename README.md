@@ -19,6 +19,7 @@ Aplikasi ini dibuat untuk mensimulasikan proses pembuatan dan pencatatan Undang-
 
 ---
 
+<a name="penjelasan-singkat-aplikasi"></a>
 ## 🧾 Penjelasan Singkat Aplikasi
 
 Aplikasi ini merupakan sistem pencatatan Undang-Undang (UU) berbasis blockchain lokal.  
@@ -35,6 +36,7 @@ Setiap UU berisi informasi seperti:
 
 ---
 
+<a name="fitur-utama-aplikasi"></a>
 ## 🚀 Fitur Utama Aplikasi
 
 - ✍️ **Pencatatan UU oleh Admin**  
