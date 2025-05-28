@@ -78,7 +78,7 @@ npm install
 cd network
 npx hardhat node
 ```
-## 🔑 Pastikan private key sesuai!
+### 🔑 Pastikan private key sesuai!
 Sesuaikan private key yang tergenerate setelah terminal menjalankan npx hardhat node
 frontend/lib/models/dummy_data.dart
 ```
@@ -101,7 +101,7 @@ Jalankan perintah ini di terminal baru agar node tetap berjalan.
 cd network
 npx hardhat run scripts/deploy.js --network localhost
 ```
-## 📍 Ubah bagian String contractAddress pada bagian frontend/lib/config.dart sesuai dengan hasil dari 
+### 📍 Ubah bagian String contractAddress pada bagian frontend/lib/config.dart sesuai dengan hasil dari 
   npx hardhat run scripts/deploy.js --network localhost
   Karena setiap kali deploy dijalankan contractAddress akan berbeda.
 ```
@@ -139,6 +139,8 @@ flutter clean
 ```
 📡 Pastikan di sisi Flutter, koneksi ke node lokal http://127.0.0.1:8545 sudah sesuai. Bila menggunakan emulator, sesuaikan alamat IP jika perlu (10.0.2.2 untuk Android emulator).
 
-### 📄 Lisensi
+---
+
+## 📄 Lisensi
 Proyek ini bersifat open-source dan dapat digunakan untuk kepentingan edukasi.
 
