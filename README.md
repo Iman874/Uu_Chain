@@ -80,6 +80,7 @@ Setiap UU berisi informasi seperti:
 🔐 Penggunaan private key di sisi frontend **sangat tidak disarankan**.  
 ⚙️ Semua konfigurasi sebaiknya ditangani oleh backend, namun untuk tujuan edukasi dan kesederhanaan, semua logika ditempatkan di frontend.
 🌐 proyek ini hanya dapat berjalan pada flutter web!!
+
 ---
 
 <a name="cara-menjalankan-proyek"></a>
