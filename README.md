@@ -5,19 +5,29 @@
 ---
 
 ## Penjelasan Singkat Aplikasi
+Aplikasi ini merupakan sistem pencatatan Undang-Undang (UU) berbasis blockchain lokal. Pengguna dapat melihat dan mengunduh UU yang telah tersimpan di blockchain, sementara admin memiliki kemampuan untuk menambahkan UU baru ke dalam jaringan. Setiap UU berisi informasi seperti:
 
-Aplikasi ini memungkinkan pengguna untuk membuat dan mencatat Undang-Undang (UU) di jaringan blockchain lokal. Setiap UU memiliki judul, isi, tanggal berlaku, dan tanggal kadaluarsa yang dicatat dalam blockchain menggunakan smart contract Solidity.
+- Judul UU  
+- Isi lengkap  
+- Tanggal mulai berlaku  
+- Tanggal kedaluwarsa
+- hash_uu (hasil hash Judul UU, isi lengkap, tanggal berlaku, dan tanggal kadaluarsa)
 
----
+Seluruh data dicatat secara transparan dan permanen melalui smart contract yang dibangun menggunakan Solidity dan dijalankan di jaringan Hardhat lokal.
 
 ## Fitur Utama Aplikasi
 
-- Membuat dan mencatat UU ke dalam blockchain.
-- Menentukan tanggal mulai dan kadaluarsa UU.
-- Menampilkan daftar UU yang telah dibuat.
-- Mendownload data UU dalam bentuk PDF lengkap dengan hash.
-- Memverifikasi data UU dalam bentuk pdf
-- Simulasi berjalan di jaringan blockchain lokal (Hardhat).
+- **Pencatatan UU oleh Admin**  
+  Admin dapat membuat UU baru yang akan disimpan ke dalam blockchain lokal.
+
+- **Verifikasi UU melalui PDF**  
+  Pengguna dapat mengunggah file PDF untuk diverifikasi apakah sesuai dengan data UU yang tercatat di blockchain.
+
+- **Unduh UU**  
+  Pengguna dan admin dapat mengunduh dokumen UU untuk disimpan atau ditinjau secara lokal.
+
+- **Transparansi dan Keamanan**  
+  Semua data UU disimpan di blockchain lokal, sehingga tidak dapat diubah atau dimanipulasi setelah tercatat.
 
 ---
 
