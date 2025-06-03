@@ -65,10 +65,6 @@ Setiap UU berisi informasi seperti:
 - 🎯 **Frontend**: Flutter  
 - 🛠️ **Smart Contract**: Solidity  
 - 🔗 **Blockchain Framework**: Hardhat  
-- 📚 **Library**:  
-  - ethers.js  
-  - ethereum-waffle  
-  - chai  
 - 🌐 **Jaringan**: Localhost (Hardhat local blockchain)
 
 ---
